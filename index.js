@@ -1,5 +1,5 @@
 function borderpack(options) {
-    let images = document.querySelectorAll('.borderpack');
+    let elements = document.querySelectorAll('.borderpack');
 
     if (options.border_type === 'dashed'){
         options.border_type = 'dashed';
@@ -17,7 +17,7 @@ function borderpack(options) {
         options.border_type = 'none';
     }
 
-    images.forEach(image =>{
+    elements.forEach(image =>{
         image.style.borderStyle = `${options.border_type}`;
     })
 }
