@@ -1,0 +1,22 @@
+{
+  "name": "borderpack",
+  "version": "1.0.1",
+  "description": "It adds different types of borders to html elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilbhosale63/borderpack.git"
+  },
+  "keywords": [
+    "borderStyle"
+  ],
+  "author": "Sahil Bhosale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilbhosale63/borderpack/issues"
+  },
+  "homepage": "https://github.com/sahilbhosale63/borderpack#readme"
+}

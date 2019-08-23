@@ -12,12 +12,12 @@ After installing the package, create a new JS file and add the following lines o
 import {borderpack} from 'borderpack';
 
 borderpack({
-    border_type: 'dashed';
+    border_type: 'dashed',
 });
 
 ```
 ## Options
 
-Borderpack supports 2 options, both of which are optional.
+Borderpack supports 4 options, all of them are optional.
 
-* *border_type* - _dashed / dotted_ 
+* *border_type* - _dashed / dotted_ / _solid / double_
