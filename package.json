@@ -1,6 +1,6 @@
 {
   "name": "borderpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It adds different types of borders to html elements.",
   "main": "index.js",
   "scripts": {
