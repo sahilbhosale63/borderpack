@@ -19,6 +19,12 @@ function borderpack(options) {
     else if(options.border_type === 'ridge'){
         options.border_type = 'ridge';
     }
+    else if(options.border_type === 'inset'){
+        options.border_type = 'inset';
+    }
+    else if(options.border_type === 'outset'){
+        options.border_type = 'outset';
+    }
     else{
         options.border_type = 'none';
     }
