@@ -13,10 +13,16 @@ function borderpack(options) {
     else if(options.border_type === 'double'){
         options.border_type = 'double';
     }
+    else if(options.border_type === 'groove'){
+        options.border_type = 'groove';
+    }
+    else if(options.border_type === 'ridge'){
+        options.border_type = 'ridge';
+    }
     else{
         options.border_type = 'none';
     }
-
+    
     elements.forEach(image =>{
         image.style.borderStyle = `${options.border_type}`;
     })
