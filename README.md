@@ -2,6 +2,8 @@
 
 Borderpack is a package which allows you to add different types of borders to any html element.
 
+Package Link: https://www.npmjs.com/package/borderpack
+
 # Installation
 
 `npm i borderpack --save`
